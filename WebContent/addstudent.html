@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CGC</title>
+</head>
+<body bgcolor="yellow">
+	<h1>Add New Student</h1>  
+<form action="SaveServlet" method="post">  
+<table>  
+<tr><td>Roll_no:</td><td><input type="text" name="id"/></td></tr>
+<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>    
+<tr><td>Email:</td><td><input type="email" name="email"/></td></tr>  
+<tr><td>Branch:</td><td>  
+<select name="branch" style="width:150px">  
+<option>B.tech</option>  
+<option>MCA</option>  
+<option>MBA</option>  
+<option>BCA</option>
+<option>BBA</option>  
+</select>  
+</td></tr> 
+<tr><td>Year:</td><td><input type="text" name="year1"> TO </td><td><input type="text" name="year2"/></td></tr> 
+<tr><td>Mobile:</td><td><input type="text" name="mobile"/></td></tr>  
+<tr><td colspan="2"><input type="submit" value="Save Record"/></td></tr>  
+</table>  
+</form>  
+  
+<br/>  
+<a href="ViewServlet">VIEW STUDENT DETAILS</a>  
+</body>
+</html>
